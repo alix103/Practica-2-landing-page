@@ -27,11 +27,14 @@ header img.logo{
 
 .tittle h1{
     color: var(--color-tittle);
-    font-size: 7rem;
+    font-size: 8rem;
     position: absolute;
     margin-left: 10rem;
-    margin-top: 4.5rem;
+    margin-top: 4rem;
     font-family: var(--font-tittle);
+    letter-spacing: 4px;
+    word-spacing: -1rem;
+    line-height: 8rem;
 }
 
 .images .group img{
@@ -39,24 +42,48 @@ header img.logo{
     /*display: flex;
     align-self: flex-start;*/
     margin-left: 3rem;
-    margin-top: 0.1rem;
+    margin-top: -1rem;
 }
 
 
 .images .group img.img1{
-    align-self: flex-end;
+    width: 8rem;
+    margin-left: 4rem;
     margin-right: 40rem;
 }
 
-/*.images .group img.img2{
-    margin-left: 50rem;
-    margin-top: 0;
-}*/
-
-.text p{
-    color: var(--color-text);
-    margin-left: 9rem;
+.images .group img.img2{
+    width: 7rem;
 }
+
+.text-img p{
+    color: var(--color-text);
+    margin-left: 10rem;
+    margin-top: 12rem;
+    margin-right: 48rem;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+}
+
+.text-img .img-txt img{
+    margin-top: -30rem;
+}
+
+.text-img .img-txt img.img4{
+    width: 7rem;
+    margin-left: 40rem;
+    margin-right: 20rem;
+}
+
+.text-img .img-txt img.img5{
+    width: 6rem;
+}
+
+.image-end img{
+    margin-left: 50rem;
+    margin-top: -5rem;
+}
+
 
 .button button{
     color: var(--background);
@@ -70,6 +97,11 @@ header img.logo{
     height: 3.5rem;
     border-radius: 0.3rem;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.button button:hover{
+    color: white;
 }
 
 .twitter{
