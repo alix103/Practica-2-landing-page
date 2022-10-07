@@ -91,8 +91,8 @@ header img.logo{
     font-size: 1rem;
     background-color: var(--color-tittle);
     border: none;
-    margin-left: 9rem;
-    margin-top: 1rem;
+    margin-left: 10rem;
+    margin-top: 0.1rem;
     width: 14rem;
     height: 3.5rem;
     border-radius: 0.3rem;
